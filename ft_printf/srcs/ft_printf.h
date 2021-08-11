@@ -21,6 +21,7 @@ int write_nbr(va_list op);
 int write_hex(va_list op);
 int write_string(va_list op);
 int write_pointer(va_list op);
+char	*ft_pitoa(size_t ptr);
 
 
 typedef struct s_data
